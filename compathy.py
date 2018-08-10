@@ -7,7 +7,7 @@ cols = ["Name", "Dept", "Gender", "Num_Evals", "Emp", "Comp"]
 all_data = []
 
 for num in range(max_evals + 1):
-    print(num, "/ 4301 complete") #A progress tracker hehe
+    print(num, "/", max_evals, "complete") #A progress tracker hehe
     url = get("http://polyratings.com/eval.php?profid=" + str(num))
     content = BeautifulSoup(url.text, "html.parser")
     try:
