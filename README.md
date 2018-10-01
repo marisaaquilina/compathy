@@ -16,4 +16,4 @@ This program outputs a .csv with the following data variables:
 * Comp: Competency score (out of 4)
 
 ## Getting Started
-Run `python2 compathy.py` 
+Run `python3 compathy.py` 
